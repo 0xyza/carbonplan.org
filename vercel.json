@@ -1,0 +1,50 @@
+{
+  "rewrites": [
+    {
+      "source": "/research/cdr-database(.*)",
+      "destination": "https://cdr-database.carbonplan.org/research/cdr-database$1"
+    },
+    {
+      "source": "/research/forest-risks",
+      "destination": "https://victorious-sky-0813bc21e.azurestaticapps.net/research/forest-risks"
+    },
+    {
+      "source": "/research/forest-offsets",
+      "destination": "https://forest-offsets.carbonplan.org/research/forest-offsets"
+    },
+    {
+      "source": "/research/carbon-removal-application(.*)",
+      "destination": "https://carbon-removal-application.carbonplan.org/research/carbon-removal-application$1"
+    },
+    {
+      "source": "/research(.*)",
+      "destination": "https://research.carbonplan.org/research$1"
+    },
+    {
+      "source": "/data(.*)",
+      "destination": "https://data.carbonplan.org/data$1"
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/research/stripe-reports-insights",
+      "destination": "https://carbonplan.org/research/stripe-2020-insights"
+    },
+    {
+      "source": "/jobs",
+      "destination": "https://apply.workable.com/carbonplan/"
+    },
+    {
+      "source": "/research/forest-offsets-map",
+      "destination": "https://carbonplan.org/research/forest-offsets"
+    },
+    {
+      "source": "/reports/methods",
+      "destination": "https://carbonplan.org/research/cdr-database/methods"
+    },
+    {
+      "source": "/reports",
+      "destination": "https://carbonplan.org/research/cdr-database"
+    }
+  ]
+}
